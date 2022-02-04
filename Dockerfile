@@ -1,7 +1,7 @@
 # Pull base image 
 FROM tomcat:8-jre8
 
-MAINTAINER "kloversolutios@outlook.com"
+MAINTAINER "kloversolutions@outlook.com"
 
 RUN cd webapps.dist && cp -R * ../webapps
 
